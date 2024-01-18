@@ -1,0 +1,17 @@
+# requirements.txt
+
+# Streamlit for creating interactive web applications
+streamlit==1.30.0
+
+# Pandas for data manipulation and analysis
+pandas==2.1.4
+
+# Folium for interactive maps
+folium==0.15.1
+
+# Plotly for interactive visualizations
+plotly==5.18.0
+
+# PyMongo for working with MongoDB
+pymongo==3.11.0
+
