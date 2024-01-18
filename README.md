@@ -15,10 +15,6 @@ Welcome to the Airbnb Analysis Project repository! This project aims to provide 
   - [Home Page](#home-page)
   - [City-wise Insights](#city-wise-insights)
 - [About Page](#about-page)
-  - [Project Team](#project-team)
-  - [Contact Us](#contact-us)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -60,12 +56,19 @@ Ensure you have the following installed:
    git clone https://github.com/yourusername/airbnb-analysis.git
 
 ### Install dependencies:
-  ```bash
-  pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 
-### Running the Project
-  ```bash
-  Navigate to the /src directory and run:
-  streamlit run app.py
+## Usage
+### Home Page
+    - Select a country to view insights such as average price, property types, bedroom sizes, and average ratings.
+    - Interactive Folium map showcasing key property-related data.
+### City-wise Insights
+    - Explore specific cities within the selected country.
+    - View city-level details like average rating, price, and property count.
+    - Filter by neighborhood, property type, bedroom size, and optional price range.
+    - Detailed data frame for in-depth analysis.
+### About Page
+    The project is a collaborative effort, utilizing a technology stack tailored for efficient data analysis and user interaction. It is designed to cater to users interested in understanding Airbnb trends across     countries and cities.
 
 
